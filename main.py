@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Force-set environment vars for CrewAI LLM initialization
-os.environ["GOOGLE_API_KEY"] = "AIzaSyAHyTYc8Hw3uOVI_uOSA-UnQv9OffsPnmw"
+os.environ["GOOGLE_API_KEY"] = "###############"
 
 # Disable native provider so we don't hit the error path again
 os.environ["CREWAI_USE_NATIVE_GEMINI"] = "false"
@@ -48,3 +48,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
